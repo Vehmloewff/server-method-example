@@ -1,7 +1,6 @@
 {
 	"name": "server_method_example",
 	"private": true,
-	"sideEffects": false,
 	"scripts": {
 		"start": "bun run build_client.ts && bun run server.ts"
 	},
