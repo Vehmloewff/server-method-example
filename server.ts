@@ -1,6 +1,6 @@
-import { callServerMethod, GenericContext, startRecording, stopRecordingAndDumpHtml } from '@vehmloewff/server_method'
+import { callServerMethod, GenericContext, startRecording, stopRecordingAndDumpHtml } from '@vehmloewff/server-method'
 import { file, serve } from 'bun'
-import { renderMessage } from './do_something'
+import { renderMessage } from './app'
 
 const server = serve({
 	port: 8000,

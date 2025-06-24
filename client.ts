@@ -1,5 +1,5 @@
-import { GenericContext, setServerMethodBrowserHandler, startBrowserReplay, stopBrowserReplay } from '@vehmloewff/server_method'
-import { renderMessage } from './do_something'
+import { GenericContext, setServerMethodBrowserHandler, startBrowserReplay, stopBrowserReplay } from '@vehmloewff/server-method'
+import { renderMessage } from './app'
 
 setServerMethodBrowserHandler(async (_, id, input) => {
 	const response = await fetch(`/method/${id}`, {
