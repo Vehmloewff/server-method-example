@@ -1,0 +1,19 @@
+{
+	"name": "server_method_example",
+	"private": true,
+	"sideEffects": false,
+	"scripts": {
+		"start": "bun run build_client.ts && bun run server.ts"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"dependencies": {
+		"@vehmloewff/server_method": "file:../server_method",
+		"rollup": "^4.44.0",
+		"zod": "^3.25.67"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	}
+}
