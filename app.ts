@@ -1,4 +1,4 @@
-import { GenericContext, serverMethod } from '@vehmloewff/server_method'
+import { GenericContext, serverMethod } from '@vehmloewff/server-method'
 
 const sayHello = serverMethod('say_hello', {
 	match: { schema: { name: 'string' } },
