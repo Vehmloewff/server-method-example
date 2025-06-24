@@ -9,7 +9,7 @@
 		"@types/bun": "latest"
 	},
 	"dependencies": {
-		"@vehmloewff/server_method": "file:../server_method",
+		"@vehmloewff/server-method": "file:../server-method",
 		"rollup": "^4.44.0",
 		"zod": "^3.25.67"
 	},
